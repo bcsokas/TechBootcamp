@@ -2,8 +2,13 @@
 <html lang="en">
 
 <head>
+    <!-- For search bar icon -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
@@ -19,16 +24,23 @@
 <body>
     <div class="container-fluid">
         <header>
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row landing-header">
+                <div class="col-md-2">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSermu0giFTKTXNMC4W3MboEbdkOKZDltbA9Q&usqp=CAU"
                         alt="Elsevier logo" width="212" height="60" />
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7 landing-title">
                     <h1>Elsevier Technology Associates</h1>
+                </div>
+                <div class="col-md-3 search-bar">
+                    <form class="form-inline">
+                        <input class="form-inline" type="text" placeholder="Search" aria-label="Search">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
                 </div>
             </div>
         </header>
+        <hr>
         <ol class="row card-list">
             <li class="col-md-3">
                 <div class="item-card">
@@ -70,8 +82,8 @@
                     <a href="#" class="btn btn-primary">Profile</a>
                 </div>
             </li>
-    
-    </ol>
+
+        </ol>
     </div>
 </body>
 
