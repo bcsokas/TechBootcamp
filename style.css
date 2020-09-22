@@ -27,3 +27,26 @@ header h1 {
     list-style-type: none;
     margin-bottom: 20px;
 }
+.profile-page {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.profile-page img {
+    padding-bottom: 20px;
+    width: 100%;
+    height: 250px;
+}
+.profile-page h2 {
+    color: RGB(252,85,0)
+}
+.profile-attributes {
+    color: RGB(252,85,0);
+    text-align: right;
+}
+.profile-info {
+    text-align: left;
+}
